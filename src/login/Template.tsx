@@ -125,7 +125,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                     {/* 하단 정보 */}
                     <S.FooterInfo>
                         <S.FooterLinks>도움말 ｜개인정보처리방침 ｜이용약관</S.FooterLinks>
-                        <S.CompanyInfo>(주)씨이랩｜대표이사 : 이우영 ｜사업자등록번호 : 119-86-31534</S.CompanyInfo>
+                        <S.CompanyInfo>(주)씨이랩｜대표이사 : 채정환, 윤세혁 ｜사업자등록번호 : 119-86-31534</S.CompanyInfo>
                     </S.FooterInfo>
                 </S.LoginSection>
 

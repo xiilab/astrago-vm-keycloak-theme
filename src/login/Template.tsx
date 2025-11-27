@@ -124,7 +124,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                     </S.LoginContent>
                     {/* 하단 정보 */}
                     <S.FooterInfo>
-                        <S.FooterLinks>도움말 ｜개인정보처리방침 ｜이용약관</S.FooterLinks>
+                        {/* <S.FooterLinks>도움말 ｜개인정보처리방침 ｜이용약관</S.FooterLinks> */}
                         <S.CompanyInfo>(주)씨이랩｜대표이사 : 채정환, 윤세혁 ｜사업자등록번호 : 119-86-31534</S.CompanyInfo>
                     </S.FooterInfo>
                 </S.LoginSection>
@@ -139,10 +139,17 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                             </S.BackgroundLogo>
                             <S.BackgroundTitle>VM 솔루션</S.BackgroundTitle>
                         </S.BackgroundTitleWrapper>
+                        {/* 
                         <S.BackgroundText>
                             {`AstraGo는 자원 최적화 기술을 활용하여 `}
                             <span>GPU 서버의 활용도를 극대화</span>
                             {`하는 솔루션입니다.\n이를 통해 학습 시간을 단축하여 사용자의 프로젝트 계획을 더욱 향상시킵니다.`}
+                        </S.BackgroundText>
+                        */}
+                        <S.BackgroundText>
+                            {`Astrago VM은 안정적인 Hypervisor 기술을 기반으로 `}
+                            <span>Container 전환을 지원하는 AI 인프라 VM 솔루션</span>
+                            {` 입니다.\n운영 효율성을 높이고 Omniverse까지 확장 가능한 유연한 인프라를 제공합니다.`}
                         </S.BackgroundText>
                     </S.BackgroundContent>
                 </S.BackgroundSection>
